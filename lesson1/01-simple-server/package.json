@@ -1,0 +1,20 @@
+{
+  "name": "lesson1-01-simple-server",
+  "version": "1.0.0",
+  "description": "Lesson 1 - Understanding GraphQL Concepts",
+  "main": "index.js",
+  "repository": "https://github.com/mugan86/beginning-graphql",
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^14.2.1",
+    "graphql-server-express": "^1.4.0",
+    "graphql-tools": "^4.0.4"
+  }
+}
